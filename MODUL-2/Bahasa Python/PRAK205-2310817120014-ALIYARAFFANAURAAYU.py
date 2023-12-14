@@ -1,0 +1,11 @@
+a, b = input().split()
+a = int(a)
+b = int(b)
+alas = ((b * b) - (a * a)) ** (1/2)
+tinggi = a
+keliling = a + b + alas
+luas = alas * tinggi / 2
+print("Alas = %d cm"%alas)
+print("Tinggi = %d cm"%tinggi)
+print("Keliling = %d cm"%keliling)
+print("Luas = %d cm^2"%luas) 
